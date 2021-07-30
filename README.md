@@ -1,8 +1,14 @@
-# Pre Fellowship Template
+# Website Monitor (Chrome Extension)
 
-This is a template to help you get started with your projects. Find out more information inside of the Fellow Handbook.
+## Objective
+Developers often spend a lot of time on the internet, whether its looking for the next piece of code to copy and paste from StackOverflow or watching a youtube tutorial. We can improve the productivity of developers by developing a chrome extension to keep track of his/her website visits and also potentially block time-wasting or distracting websites.
 
-This template has a `main` and `staging` branch already setup. 
+## Features
+- Keep track of regularly visited websites.
+- Block websites that reduce productivity.
+- Stack overflow automatic error search.
+- Screen time alert.
 
-- Code will only be merged into `main` once your Pod Leader has reviewed your code. At the end of each week, there will be a code freeze. Your Pod Leader will review it before it's merged.
-- During the week, you'll merge code into `staging`. 
+## Development
+
+Clone the repository to your local machine using ```git clone https://github.com/OfiliPatrick/pod-3.1.0-WebsiteMonitor.git```
