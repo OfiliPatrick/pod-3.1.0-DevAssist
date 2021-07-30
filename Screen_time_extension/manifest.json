@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Screen Time",
+    "description": "Monitors screen time for Chrome tabs",
+    "version": "0.1",
+    "author": "Johnpaul Ugwulo",
+    "browser_action": {
+        "default_icon": "mlh.jpg",
+        "default_title": "Making sure you don't spend more time than neccessary"
+    },
+    "permissions": ["tabs", "activeTab", "http://127.0.0.1:5000/*", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
